@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta Sorpresa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+    <div class="hearts-container" id="hearts-container"></div>
+    <div class="floating-hearts" id="floating-hearts"></div>
+    <div class="notification" id="notification">Haz clic en el sobre para abrir la carta</div>
+    
+    <div class="container" id="main-container">
+        <div class="header">
+            <h1><span class="special-name floating"> Génesis</span></h1>
+            <p style="color: rgb(255, 255, 255); text-shadow: 0 0 10px rgba(25, 0, 255, 0.5);">Haz clic en el sobre para tu sorpresa</p>
+        </div>
+        
+        <div class="envelope-wrapper" id="envelope-wrapper">
+            <div class="envelope" id="envelope">
+                <div class="envelope-front">
+                    <div class="envelope-flap"></div>
+                    <i class="fas fa-star" style="color: white; font-size: 3rem; animation: pulse 1.5s infinite;"></i>
+                </div>
+                <div class="envelope-back">
+                    <div class="letter">
+                        <div class="paper-texture"></div>
+                        <div class="letter-content">
+                            <h2>Abriendo...</h2>
+                        </div>
+                    </div>
+                    <i class="fas fa-star" style="color: #0f0c0d; font-size: 2.5rem; animation: pulse 1.5s infinite; position: absolute; bottom: 10px; right: 10px;"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="fullscreen-letter" id="fullscreen-letter">
+        <div class="close-btn" id="close-btn">×</div>
+        <div class="paper-texture"></div>
+        <div class="fullscreen-letter-content">
+            <h2>GÉNESIS</h2>
+            <p>Me alegra mucho haberte conocido en este tiempo,</p>
+            <p>y agradezco a Dios por los momentos que hemos compartido,</p>
+            <p>porque sé que Él siempre tiene planes buenos para nuestras vidas.</p>
+            <p><em>“Mas el Dios de toda gracia, que nos llamó a su gloria eterna en Jesucristo, 
+            después que hayáis padecido un poco de tiempo, 
+            él mismo os perfeccione, afirme, fortalezca y establezca.” (1 Pedro 5:10)</em></p>
+            <div class="signature">Con aprecio...Alexander</div>
+
+        </div>
+    </div>
+
+    
+</body>
+<script src="./js/script.js"></script>
+</html>
